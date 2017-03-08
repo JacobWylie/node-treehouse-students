@@ -36,10 +36,10 @@ const user = (request, response) => {
 
 				// Store the values which we need
 				let values = {
-					avatarUrl: profileJSON.gravatar_url,
+					avatarURL: profileJSON.gravatar_url,
 					username: profileJSON.profile_name,
 					badges: profileJSON.badges.length,
-					javaScriptPoints: profileJSON.points.JavaScript
+					javascriptPoints: profileJSON.points.JavaScript
 				}
 				// Simple response
   			renderer.view('profile', values, response);
