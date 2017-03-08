@@ -11,12 +11,7 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((request, response) => {
-  response.statusCode = 200;
-  response.setHeader('Content-Type', 'text/plain');
-  setInterval( () => {
-  	response.write(new Date() + '\n');  	
-  }, 1000);
-  // response.end('Hello World\n');
+	homeRoute(request, response);
 });
 
 server.listen(port, hostname, () => {
@@ -24,10 +19,19 @@ server.listen(port, hostname, () => {
 });
 
 // 2. Handle HTTP route GET / and POST / i.e. Home
+const homeRoute = (request, response) => {
 	// if url == "/" && GET
+	if(request.url === "/") {
 		// show Search
+	response.statusCode = 200;
+  response.setHeader('Content-Type', 'text/plain');
+  response.write('Header\n');
+  response.write('Search\n');  	
+  response.end('Footer\n');
+	}
 	//  if url == "/" && POST
 		// redirect to /:username
+}
 
 // 3. Handle HTTP route GET /:username i.e. /username
 	// If url == '/...'
@@ -40,3 +44,31 @@ server.listen(port, hostname, () => {
 // 4. Function that handles the reading of files and merge in value
 	// Read from file and get a string
 		// merge values into string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
