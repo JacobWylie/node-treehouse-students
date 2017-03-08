@@ -20,9 +20,6 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-// Function that handles the reading of files and merge in value
-	// Read from file and get a string
-		// merge values into string
 
 
 
