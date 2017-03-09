@@ -1,0 +1,22 @@
+{
+  "name": "node-treehouse-students",
+  "version": "0.0.1",
+  "description": "Search teamtreehouse.com user database",
+  "main": "app.js",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwylie/node-treehouse-students.git"
+  },
+  "author": "Jacob Wylie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobwylie/node-treehouse-students/issues"
+  },
+  "homepage": "https://github.com/jacobwylie/node-treehouse-students",
+  "devDependencies": {
+  }
+}
