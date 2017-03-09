@@ -18,5 +18,9 @@
   },
   "homepage": "https://github.com/jacobwylie/node-treehouse-students",
   "devDependencies": {
+  },
+    "engines": {
+    "node": "6.9.4"
   }
+
 }
