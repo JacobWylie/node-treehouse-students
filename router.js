@@ -21,9 +21,10 @@ const home = (request, response) => {
 			request.on('data', postBody => {
 				// Extract the username
 				let query = querystring.parse(postBody.toString());
-				response.write(query.username);
-				response.end();
-				// redirect to /:username					
+				// redirect to /:username		
+				response.statusCode = 303;
+	  		response.setHeader('location', `/${query.username}`);				
+				response.end();			
 			});		
 		}
 	}
