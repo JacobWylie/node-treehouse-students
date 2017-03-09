@@ -1,0 +1,14 @@
+
+<!-- removes spaces when form is submitted -->
+<script language="javascript" type="text/javascript">
+	function removeSpaces(string) {
+	return string.split(' ').join('');
+}
+</script>
+<img src="http://i.imgur.com/VKKm0pn.png" alt="Magnifying Glass" id="searchIcon">
+
+<form action="/" method="POST">
+	<!-- removes spaces when form is submitted -->
+    <input type="text" onchange="this.value=removeSpaces(this.value);" placeholder="Enter a Treehouse username" id="username" name="username">
+    <input type="submit" value="submit" class="button">
+</form>
