@@ -17,12 +17,12 @@
   "bugs": {
     "url": "https://github.com/jacobwylie/node-treehouse-students/issues"
   },
-  "homepage": "https://github.com/jacobwylie/node-treehouse-students",
+  "homepage": "git+https://github.com/jacobwylie/node-treehouse-students",
   "devDependencies": {
   },
     "engines": {
-    "node": "6.9.4",
-    "npm": "4.0.5"
+    "node": "^6.9.4",
+    "npm": "^4.0.5"
   }
 
 }
