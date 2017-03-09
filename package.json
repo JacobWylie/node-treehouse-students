@@ -4,9 +4,10 @@
   "description": "Search teamtreehouse.com user database",
   "main": "app.js",
   "scripts": {
-    "start" :"node app.js"
+    "start": "node app.js"
   },
   "dependencies": {
+    "querystring": "^0.2.0"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,9 @@
     "url": "https://github.com/jacobwylie/node-treehouse-students/issues"
   },
   "homepage": "git+https://github.com/jacobwylie/node-treehouse-students",
-  "devDependencies": {
-  },
-    "engines": {
+  "devDependencies": {},
+  "engines": {
     "node": "^6.9.4",
     "npm": "^4.0.5"
   }
-
 }
