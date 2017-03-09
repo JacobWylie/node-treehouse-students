@@ -4,6 +4,7 @@
   "description": "Search teamtreehouse.com user database",
   "main": "app.js",
   "scripts": {
+    "start" :"node app.js"
   },
   "dependencies": {
   },
