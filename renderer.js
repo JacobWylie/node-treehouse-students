@@ -2,9 +2,9 @@ const fs = require('fs');
 
 const mergeValues = (values, content) => {
 	// Cycle over the keys
-	for(var key in values) {
+	for(let key in values) {
 		// Replace all {{key}} with the value from the values object
-		content = content.replace("{{" + key + "}}", values[key])
+		content = content.replace("{{" + key + "}}", values[key]);
 	}
 
 	// Return merged content 
