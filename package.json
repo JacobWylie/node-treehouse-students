@@ -2,8 +2,9 @@
   "name": "node-treehouse-students",
   "version": "0.0.1",
   "description": "Search teamtreehouse.com user database",
-  "main": "router.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js"
   },
   "dependencies": {
   },
