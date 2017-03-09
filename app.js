@@ -8,7 +8,7 @@ const router = require('./router.js')
 // Create a web server
 const http = require('http');
 
-http.createServer(function (request, response) {
+http.createServer( (request, response) => {
 	router.home(request, response);
 	router.user(request, response);   
 }).listen(process.env.PORT || 5000);
