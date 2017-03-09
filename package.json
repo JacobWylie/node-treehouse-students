@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacobwylie/node-treehouse-students.git"
+    "url": "https://github.com/jacobwylie/node-treehouse-students.git"
   },
   "author": "Jacob Wylie",
   "license": "MIT",
