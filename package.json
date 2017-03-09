@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacobwylie/node-treehouse-students.git"
+    "url": "git+https://github.com/jacobwylie/node-treehouse-students.git"
   },
   "author": "Jacob Wylie",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jacobwylie/node-treehouse-students/issues"
   },
-  "homepage": "git+https://github.com/jacobwylie/node-treehouse-students",
+  "homepage": "https://github.com/jacobwylie/node-treehouse-students",
   "devDependencies": {},
   "engines": {
     "node": "6.9.4",
